@@ -14,7 +14,7 @@ function onUpload(req, res) {
     res.end();
   }
 
-  let filePath = '/Users/codergautam/Desktop/upload/files';
+  let filePath = './upload/files';
 
   if (!uploads[fileId]) uploads[fileId] = {};
   let upload = uploads[fileId];
